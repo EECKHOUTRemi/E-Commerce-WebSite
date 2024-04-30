@@ -1,0 +1,13 @@
+.lastname, .firstname, .email {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-text{
+    width: 160px;
+}
+
+.btnSubmit {
+    width: 100px;
+}

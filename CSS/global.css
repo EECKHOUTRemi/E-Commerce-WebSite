@@ -1,0 +1,84 @@
+body{
+  font-family: 'Rubik', Arial;
+}
+
+/* ---------------------------------- Navbar ---------------------------------------- */
+.navbar {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b8b8b8;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  margin: auto;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.navbarLogoTitle {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 200px;
+}
+
+.navbarTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.navbarLinks {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  gap: 10px;
+}
+
+.navbarLinkBox {
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(186, 186, 186);
+  background-color: #e2e2e2;
+  padding: 5px 10px;
+}
+
+.navbarLink:link {
+  text-decoration: none;
+  color: red;
+}
+
+.navbarLink:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.navbarLink:hover {
+  text-decoration: underline;
+  color: #b10101;
+}
+
+.navbarLink:active {
+  text-decoration: underline;
+  color: red;
+}
+
+.shopBagSvg {
+  height: 50px;
+}
+
+/* ---------------------------------- Container ---------------------------------------- */
+.container {
+  padding: 150px 150px 0 150px;
+}

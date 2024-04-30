@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cardRacquet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    border-color:#eeecec;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.imgRacquet {
+    height: 300px;
+    border-radius: 5px;
+}
+
+.titleRacquets {
+    justify-self: center;
+    margin-bottom: 50px;
+}
+
+.linkDetails {
+    margin-top: 10px;
+}

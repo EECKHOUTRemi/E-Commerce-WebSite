@@ -1,0 +1,51 @@
+/* ---------------------------------------------- Table ---------------------------------------------- */
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #8c8c8c;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead,
+tfoot {
+    background-color: #e4f0f5;
+}
+
+th,
+td {
+    border: 1px solid #a0a0a0;
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: #edeef2;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+
+/* ---------------------------------------------- Form Add ---------------------------------------------- */
+.addRacquet {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input{
+    margin: 5px 0;
+}
